@@ -1,0 +1,196 @@
+	@font-face { font-family: sofia; src: url('../assets/Sofia/Sofia_Pro_Reg.otf'); }
+
+*{
+		margin: 0;
+		padding: 0;
+
+}
+
+.content {
+	position: absolute;
+	background-color: white;
+	width: 80%;
+/*  height: 100%; */
+	left: 10%;
+	right: 10%;
+ top: 0%;
+z-index:4;
+margin-bottom: 10%;
+}
+
+.lead{
+	position: relative;
+		width: 100%;
+		height: 100%;
+		min-height:100%;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+overflow: hidden;
+z-index:1000;
+	margin-bottom: -8%;
+}
+
+.heads {
+fill: #15ccab
+}
+
+
+.scenes{
+position: relative;
+margin-top: 5%;
+margin-bottom: 5%;
+text-align:center;
+
+}
+
+.bio {
+	position: relative;
+width: 60%;
+margin-left: 20%;
+font-family: sofia, sans-serif;
+color: blue;
+margin-top: 3%;
+margin-bottom: 10%;
+line-height: 105%
+}
+
+h1{
+position:  relative;
+font-size: 2em;
+font-family: sofia, sans-serif;
+color: #15ccab;
+text-align:center;
+letter-spacing: 2px;
+width: 100%;
+text-decoration: none;
+font-weight: 200;
+}
+
+p {
+font-size: .9em;
+
+}
+
+
+.vid {
+position: relative;
+
+}
+
+.artist {
+position: relative;
+	margin-top: 2.5%;
+
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.instagram {
+			position: relative;
+			text-align:center;
+			margin-bottom: 10%;
+			background-color: white;
+			font-family: sofia, sans-serif;
+
+			}
+
+			.insta2 {
+				width: 80%;
+				margin-left:10%;
+				margin-top: 10%;
+				margin-bottom:10%;
+				overflow:visible;
+			}
+
+
+			#inner {
+				display: inline-block;
+	    margin-left: auto;
+	    margin-right: auto;
+			}
+
+			.SVG_logo {
+				   text-align:center;
+			}
+
+			.works{
+			position: relative;
+
+
+			}
+
+			table {
+ margin: 0 auto;
+}
+
+a#custom{
+ position:  relative;
+font-family: sofia, sans-serif;
+color: blue;
+text-align:center;
+letter-spacing: 2px;
+width: 100%;
+text-decoration: none;
+font-weight: 200;
+
+}
+
+a.instagram {
+text-decoration: none;
+font-size: 2em;
+color: #FAE248;
+}
+
+svg#kewl{
+width: 100%;
+text-align:center;
+margin-bottom: 10%;
+margin-top: 2%;
+	}
+
+	.photos {
+		display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+		display: flex;
+		flex-flow: row wrap;
+		-webkit-box-pack: center;
+-moz-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+ -moz-box-align: center;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+			 align-items: center;
+
+
+	}
+
+	.photos figure {
+		position: relative;
+		font-size: 0;
+		margin: 5% 0;
+		flex: 0 0 42%;
+		-webkit-box-flex: 0 0 42%;
+	  -moz-box-flex: 0 0 42%;             
+	  -webkit-flex: 0 0 42%;
+	  -ms-flex: 0 0 42%;
+
+
+	}
+
+	.photos figure img {
+		width: 100%;
+		height: auto;
+	}
+
+	.photos figure:nth-child(even) img {
+		float: right;
+	}
